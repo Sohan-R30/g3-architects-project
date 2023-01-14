@@ -15,6 +15,31 @@
     .navbar i{
         display: block;
     }
+    main{
+        width: 384px;
+    }
+    .features{
+        flex-direction: column;
+        width: 384px;
+    }
+    .features-image-container{
+        width: 384px;
+        justify-content: flex-start;
+    }
+    .image, .image img{
+        width: 228px;
+        height: 228px;
+    }
+    .features-text-container{
+        text-align: center;
+        margin-left: 90px ;
+    }
+    .text-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 

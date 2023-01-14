@@ -9,6 +9,7 @@
 /* --------header area styles start */
 header{
     background: rgba(255, 144, 14, 0.1);
+    /* width: 1920px; */
 }
 .navbar{
     display: flex;
@@ -56,13 +57,14 @@ header{
     padding-bottom: 20px;
     font-size: 64px;
 }
-.banner-text .banner-description{
+.description{
     padding-bottom: 30px;
     color: #727272;
     line-height: 26px;
+    font-size: 16px;
 
 }
-.banner-text .btn{
+.primary-btn{
     width: 180px;
     height: 64px;
     margin-bottom: 50px;
@@ -83,4 +85,46 @@ header{
 }
 .banner-image img{
     width: 960px;
+}
+/* --------header area styles start */
+main{
+    width: 1440px;
+    /* margin: 0 auto; */
+}
+
+/* --------feature section styles start */
+
+.features{
+    width: 1440px;
+    display: flex;
+    gap: 85px;
+    align-items: center;
+    justify-content: center;
+}
+.features-image-container{
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 24px;
+    padding-top: 85px;
+}
+.image, .image img{
+    width: 242px;
+    height: 242px;
+}
+.features-text-container{
+    
+    width: 330px;
+    height: 304px;
+}
+.features-title{
+    font-size: 25px;
+    padding-bottom: 24px;
+    color: #727272;
+}
+.features-title .our{
+    color: #131313;
+}
+.features-title .feature{
+    color: #FF900E;
 }
