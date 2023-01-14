@@ -59,4 +59,24 @@
     .banner-image img{
         width: 100%;
     }
+    .navbar i{
+        display: block;
+    }
+    main{
+        width: 768px;
+    }
+    .features{
+        flex-direction: column;
+        width: 768px;
+    }
+    .features-image-container{
+        width: 700px;
+    }
+    .image, .image img{
+        width: 342px;
+        height: 342px;
+    }
+    .features-text-container{
+        text-align: center;
+    }
 }
