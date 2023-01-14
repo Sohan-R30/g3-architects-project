@@ -27,12 +27,12 @@
         justify-content: flex-start;
     }
     .image, .image img{
-        width: 228px;
-        height: 228px;
+        width: 220px;
+        height: 220px;
     }
     .features-text-container{
         text-align: center;
-        margin-left: 90px ;
+        margin-left: 150px ;
     }
     .text-container{
         display: flex;
