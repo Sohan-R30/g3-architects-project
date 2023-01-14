@@ -1,0 +1,86 @@
+/*-------- Fonts-------- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* --------header area styles start */
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+.nav-menu{
+    display: flex;
+    gap: 50px;
+}
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: #727272;
+    ;
+    font-weight: 500;
+    font-size: 18px;
+}
+.nav-menu li a:hover{
+    color: #000;
+}
+/* .header-logo{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+}
+.header-logo i{
+    display: none;
+} */
+.logo{
+    font-size: 45px;
+}
+.banner-area{
+    padding-top: 92px;
+    padding-bottom: 45px;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text .banner-logo{
+    padding-bottom: 20px;
+    font-size: 64px;
+}
+.banner-text .banner-description{
+    padding-bottom: 30px;
+    color: #727272;
+    line-height: 26px;
+
+}
+.banner-text .btn{
+    width: 180px;
+    height: 64px;
+    margin-bottom: 50px;
+    color: #fff;
+    background-color: #FF900E;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.banner-text .btn:hover{
+    background-color: #d98a13d0;
+}
+.banner-image{
+    display: flex;
+    justify-content: center;
+}
+.banner-image img{
+    width: 960px;
+}

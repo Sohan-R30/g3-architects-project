@@ -1,0 +1,37 @@
+/* Media Quary For Mobile */
+@media only screen and (max-width:480px) {
+    .navbar{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-menu{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    .banner-image img{
+        width: 100%;
+    }
+    .navbar i{
+        display: block;
+    }
+}
+
+
+
+
+
+/* Media Quary For Tablet */
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .navbar{
+        padding-top: 20px;
+    }
+    .nav-menu{
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 90px;
+    }
+    .banner-image img{
+        width: 100%;
+    }
+}
