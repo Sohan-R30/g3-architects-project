@@ -143,7 +143,7 @@ main{
 }
 .experience-image-container{
     position: relative;
-    width: 600px;
+    width: 80%;
     height: 1132px;
 }
 .experience-image-container img{
@@ -185,8 +185,38 @@ main{
     font-size: 55px;
     width: 258px;
     margin: auto;
-    /* height: 109px; */
 }
 .btn small{
     text-align: center;
+}
+/* facts section styles start */
+.fact-text{
+    margin-left: 170px;
+}
+.fact-boxs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 104px;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 200px;
+    width: 70%;
+}
+.fact-title{
+    margin-bottom: 24px;
+    color: #727272;
+}
+
+.fact-box{
+    text-align: center;
+    border: 1px solid #FF900E;
+    padding: 30px 30px 10px 30px ;
+}
+.fact-count{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 35px;
+}
+.fact-box img{
+    width: 35px;
 }

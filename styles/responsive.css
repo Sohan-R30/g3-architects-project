@@ -100,15 +100,14 @@
     }
     .features{
         grid-template-columns: 1fr;
-        justify-content: center;
-        align-items: center;
         min-width: 100%;
+
     }
     .features-image-container{
         grid-template-columns: 1fr ;
         justify-content: center;
-        margin-left: auto;
         width: 40%;
+        margin: auto;
     }
     .image, .image img{
         width: 300px;
@@ -127,10 +126,20 @@
         width: 90%;
     }
     .experience-image-container img{
-        width: 80%;
+        width: 75%;
         margin-left: 0;
     }
     .btn{
-        margin-left: 150px;
+        right: 10%;
+    }
+    .fact-boxs{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        margin: auto;
+    }
+    .fact-text{
+        margin-top: 150px;
+        text-align: center;
+        width: 50%;
     }
 }
