@@ -1,5 +1,5 @@
 /* Media Quary For Mobile */
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:576px) {
     .navbar{
         flex-direction: column;
         gap: 20px;
@@ -16,7 +16,7 @@
         display: block;
     }
     main{
-        max-width: 480px;
+        max-width: 100%;
     }
     .features{
         grid-template-columns: 1fr;

@@ -34,15 +34,7 @@ header{
 .nav-menu li a:hover{
     color: #000;
 }
-/* .header-logo{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    gap: 20px;
-}
-.header-logo i{
-    display: none;
-} */
+
 .logo{
     font-size: 45px;
 }
