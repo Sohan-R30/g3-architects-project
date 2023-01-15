@@ -9,7 +9,7 @@
 /* --------header area styles start */
 header{
     background: rgba(255, 144, 14, 0.1);
-    width: 100%;
+    min-width: 100%;
 }
 .navbar{
     display: flex;

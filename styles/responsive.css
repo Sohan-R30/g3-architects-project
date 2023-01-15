@@ -1,5 +1,9 @@
 /* Media Quary For Mobile */
 @media only screen and (max-width:576px) {
+    header{
+        width: 100%;
+        margin: auto;
+    }
     .navbar{
         flex-direction: column;
         gap: 20px;
@@ -20,7 +24,7 @@
     }
     .features{
         grid-template-columns: 1fr;
-        width: 80%;
+        width: 100%;
     }
     .features-image-container{
         width: 100%;
@@ -54,8 +58,13 @@
         width: 100%;
 
     }
+    .experience-image-container{
+        margin-top: 20px;
+        height: 1000px;
+    }
     .experience-image-container img{
         width: 83%;
+        height: 926px;
         left: 0;
     }
     .btn{
@@ -69,6 +78,9 @@
 
 /* Media Quary For Tablet */
 @media only screen and (min-width:481px) and (max-width:820px) {
+    header{
+        min-width: 100%;
+    }
     .navbar{
         padding-top: 20px;
     }
@@ -90,12 +102,13 @@
         grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        min-width: 100%;
     }
     .features-image-container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
         justify-content: center;
-        margin: auto;
+        margin-left: auto;
+        width: 40%;
     }
     .image, .image img{
         width: 300px;
@@ -106,13 +119,16 @@
         margin: auto;
     }
     .experience{
-        width: 768px;
+        width: 95%;
         flex-direction: column;
         justify-content: center;
     }
+    .experience-container{
+        width: 90%;
+    }
     .experience-image-container img{
-        width: 100%;
-        margin: auto;
+        width: 80%;
+        margin-left: 0;
     }
     .btn{
         margin-left: 150px;
