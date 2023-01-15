@@ -132,7 +132,7 @@ main{
 }
 .experience{
     display: flex;
-    gap: 54px; 
+    gap: 540px; 
     align-items: center;
     margin-top: 130px;
     justify-content: center;
@@ -168,12 +168,14 @@ main{
 }
 .experience-container {
     position: relative;
+    /* bottom: 0; */
 }
 .btn{
     position: absolute;
     width: 292px;
     height: 150px;
     bottom: 0;
+    right: 240px;
 }
 .btn button{
     width: 292px;
@@ -211,6 +213,21 @@ main{
     text-align: center;
     border: 1px solid #FF900E;
     padding: 30px 30px 10px 30px ;
+    animation: simple 10s ease 2s infinite;
+}
+@keyframes simple {
+    0%{
+        border: none;
+    }
+    25%{
+        background-color: #FF900E;
+    }
+    50%{
+        background-color: #52483d;
+    }
+    100%{
+        transform: rotate(90deg);
+    }
 }
 .fact-count{
     padding-bottom: 5px;
@@ -219,4 +236,54 @@ main{
 }
 .fact-box img{
     width: 35px;
+}
+
+
+
+
+
+
+.sponspors-box{
+    margin-top: 180px;
+    
+}
+.sponspors-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.sponspors-title{
+    font-size: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.socials{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 20px;
+    width: 960px;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.social{
+    color: #000;
+    /* opacity: 0.5; */
+}
+.social img{
+    width: 100px;
+    mix-blend-mode: luminosity;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF4E7;
+    padding: 40px 200px 5px 200px;
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 70%;
+    margin-bottom: 220px;
 }
