@@ -62,9 +62,8 @@
         /* height: 100px; */
     }
     .experience-image-container img{
-        width: 83%;
-        /* height: 926px; */
-        left: 0;
+        margin-top: 400px;
+        margin-left: 400px;
     }
     .btn{
         margin-left: 150px;
@@ -142,8 +141,8 @@
         width: 100%;
     }
     .experience-image-container img{
-        width: 75%;
-        margin-left: 0;
+        width: 83%;
+        /* margin-left: 0; */
     }
     .btn{
         right: 10%;
