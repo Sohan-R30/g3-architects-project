@@ -77,7 +77,7 @@
 
 
 /* Media Quary For Tablet */
-@media only screen and (min-width:481px) and (max-width:820px) {
+@media only screen and (min-width:577px) and (max-width:820px) {
     header{
         min-width: 100%;
     }
